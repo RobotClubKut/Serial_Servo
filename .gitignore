@@ -1,0 +1,47 @@
+#windouws image file caches
+Thumbs.ab
+ehthumbs.ab
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# windows Installer files
+*.cad
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+#==========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnaile
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Log files
+*.log
+*.rpt
+
+*.cydsn/codegentemp/*
+*.cydsn/DP8051/*
+*.cydsn/Generated_Source/*
+Archive/*
+Backup/*
