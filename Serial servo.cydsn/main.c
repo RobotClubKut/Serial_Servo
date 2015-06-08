@@ -174,7 +174,7 @@ int main()
     speed(4,50);
     speed(5,50);
     //--- ストレッチ ---//
-    stretch(2,50);
+    stretch(2,30);
     stretch(3,100);
     stretch(4,100);
     stretch(5,100);
@@ -189,21 +189,21 @@ int main()
             //--- 掴むor離す　---//
         if(control.servo.command.grabBall == 1)
         {
-            servo(0,70,1);
+            servo(0,90,1);
         }
         else
         {
-            servo(0,160,1);
+            servo(0,180,1);
         }
     //--- アーム位置　---//
         if(control.servo.command.position == 1)
         {
-            servo(1,160,1);
+            servo(1,165,1);
         }
         else
         {
             // 初期位置　//
-            servo(1,-10,1);        
+            servo(1,0,1);        
             // 格納コンテナ選択　//
             if(control.servo.command.selectContainer == 0)//黄
             {
